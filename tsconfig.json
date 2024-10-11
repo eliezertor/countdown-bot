@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "jsx": "react",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "allowJs": false,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@hypercontext/*": ["src/*"],
+      "@hypercontext/components/*": ["src/components/*"],
+      "@hypercontext/routes/*": ["src/routes/*"],
+      "@hypercontext/styles/*": ["src/styles/*"],
+      "@hypercontext/svg/*": ["src/svg/*"],
+      "@hypercontext/images/*": ["src/images/*"],
+      "@hypercontext/types/*": ["src/types/*"],
+    }
+  },
+  "include": ["src/**/*"],
+}

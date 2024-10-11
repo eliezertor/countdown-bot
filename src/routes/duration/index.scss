@@ -1,0 +1,36 @@
+.duration {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+
+  &__content {
+    &-main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      vertical-align: middle;
+    }
+  }
+
+  .completed {
+    background-color: var(--white);
+    border-radius: 50%;
+
+    &__timer-wheel-marker {
+      align-self: flex-start;
+    }
+
+    &__fully {
+      background: linear-gradient(180deg, #25ecad 0%, #13b8ff 106.68%);
+    }
+  }
+
+  &__bot-img {
+    width: 70px;
+    height: 70px;
+    align-self: flex-end;
+    object-fit: cover;
+  }
+}

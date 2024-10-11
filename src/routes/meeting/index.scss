@@ -1,0 +1,48 @@
+.recording-route {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  justify-content: center;
+
+  &__background-img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+  }
+
+  &__bot-img {
+    width: 96px;
+    height: 96px;
+    margin-bottom: 24px;
+    opacity: 0.75;
+  }
+
+  &__section-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__content-container {
+    width: 100%;
+    z-index: 1;
+    margin: 0 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.06);
+    padding: 16px 48px;
+    max-width: calc(272px - 96px);
+  }
+
+  &__hyper-logo {
+    display: flex;
+    width: 175px;
+  }
+}

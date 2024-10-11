@@ -1,0 +1,21 @@
+.outer-circle {
+  width: 231px;
+  height: 231px;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: var(--time-wheel-background);
+}
+
+.gradient-tail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner-circle {
+  background-color: var(--time-wheel-inner-circle);
+}

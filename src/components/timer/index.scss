@@ -1,0 +1,17 @@
+.timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--white);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.26px;
+
+  &__minutes {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 86.04px;
+    margin: 2px 0;
+  }
+}

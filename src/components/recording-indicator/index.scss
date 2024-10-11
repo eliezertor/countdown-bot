@@ -1,0 +1,37 @@
+.recording-indicator {
+  visibility: hidden;
+
+  &--live {
+    visibility: visible;
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+  &__outer-circle {
+    margin-right: 8px;
+    border: 2px solid var(--recording-red);
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+  &__inner-circle {
+    background: var(--recording-red);
+    width: 69%;
+    height: 70%;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  &__recoding-text {
+    color: var(--recording-red);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    z-index: 1;
+  }
+}
