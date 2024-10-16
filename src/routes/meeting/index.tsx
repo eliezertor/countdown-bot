@@ -15,7 +15,7 @@ function Meeting() {
       <img
         src={bot}
         className="recording-route__bot-img"
-        alt="Hypercontext bot"
+        alt="Countdown example"
       />
 
       <section className="recording-route__section-container">
@@ -23,7 +23,7 @@ function Meeting() {
           <img
             className="recording-route__hyper-logo"
             src={hyperLogo}
-            alt="Hypercontext bot"
+            alt="Countdown example"
           />
         </div>
       </section>
