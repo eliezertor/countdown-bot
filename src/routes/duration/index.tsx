@@ -85,7 +85,6 @@ export default function Duration() {
             addStopWatch={true}
           />
         </TimerWheel>
-        <img src={bot} className="duration__bot-img" alt="Countdown example" />
       </div>
     </div>
   );
